@@ -19,13 +19,13 @@ public class exer01 {
            vetorB[i] = (vetorA[i]) * 2;
         }
         
-        System.out.print("Vetor A = ");
+        System.out.print("Array A = ");
         for (int i=0; i<vetorA.length; i++) {
            System.out.print(vetorA[i] + " ");
         }
         System.out.println();
 
-        System.out.print("Vetor B = ");
+        System.out.print("Array B = ");
         for (int i=0; i<vetorB.length; i++) {
            System.out.print(vetorB[i] + " ");
         }
