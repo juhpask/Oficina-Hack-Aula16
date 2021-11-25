@@ -10,18 +10,22 @@ public class exemplo04Matriz {
         Random nRandom = new Random();
         int[][] matrizM = new int[4][4];
         
+        //gerar matriz
         for (int i=0; i<matrizM.length; i++){
             for (int j=0; j<matrizM[i].length;j++){
                 matrizM[i][j]= nRandom.nextInt(10);
             }
         }
         
+        //imprimir matriz
         for (int i=0; i<matrizM.length; i++){
             for (int j=0; j<matrizM[i].length;j++){
-                System.out.println(matrizM[i][j]);
+                System.out.print(matrizM[i][j] + " ");
             }
+            System.out.println();
         }
         
+        //buscar o maior valor
         int maior = 0;
         int linha = 0;
         int coluna = 0;
